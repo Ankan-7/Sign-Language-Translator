@@ -66,3 +66,7 @@ SPEAK → Convert sentence to speech
 • Deep learning based model  
 • GUI interface  
 • Higher prediction accuracy
+
+## Demo
+
+![Demo](demo.png)
