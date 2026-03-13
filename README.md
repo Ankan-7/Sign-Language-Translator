@@ -1,25 +1,21 @@
-# Sign Language Translator (Real-Time)
+# Sign Language Translator
 
-A real-time sign language translation system built using **Computer Vision and Machine Learning**.
-
-The system detects hand gestures using MediaPipe and translates them into text in real time.
+A real-time sign language recognition system using MediaPipe and Machine Learning that converts hand gestures into text and speech.
 
 ## Features
-
-• Real-time hand gesture recognition  
-• Machine learning based letter prediction  
-• Word autocomplete suggestions using NLP  
-• Gesture commands (SPACE, CLEAR, DELETE, SPEAK)  
-• Text-to-speech output  
-• Smooth prediction using buffer stabilization  
+- Real-time hand gesture recognition
+- Text generation from sign language
+- Word suggestion system
+- Text-to-speech output
+- Two-hand gesture commands (space, clear, delete, speak)
 
 ## Tech Stack
-
 Python  
 OpenCV  
 MediaPipe  
-Scikit-Learn  
-WordFreq (NLP autocomplete)
+Scikit-learn  
+NumPy  
+pyttsx3
 
 ## Project Structure
 
