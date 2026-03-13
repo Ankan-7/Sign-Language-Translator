@@ -207,6 +207,8 @@ while True:
 
                 prediction_buffer.append(prediction)
 
+                
+
                 if len(prediction_buffer) == prediction_buffer.maxlen:
 
                     stable_prediction = Counter(prediction_buffer).most_common(1)[0][0]
@@ -220,7 +222,7 @@ while True:
                             selected_suggestion = 0
                             last_added_time = current_time
                             prediction_buffer.clear()
-                            stable_prediction = ""
+                            
 
                 mp_draw.draw_landmarks(img, hand_landmarks,
                                        mp_hands.HAND_CONNECTIONS)
