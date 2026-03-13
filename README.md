@@ -65,4 +65,4 @@ SPEAK → Convert sentence to speech
 
 ## Demo
 
-![Demo](demo.png)
+![Demo](assets/demo.png)
