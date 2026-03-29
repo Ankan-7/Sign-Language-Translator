@@ -8,6 +8,16 @@ This project focuses on improving accessibility by enabling basic communication 
 
 The system is designed to work in real time and supports continuous sentence formation along with speech output.
 
+## Dataset
+
+The dataset used in this project was created manually by capturing hand gesture samples using a webcam.
+
+* Custom dataset built for multiple hand gestures
+* Landmark data extracted using MediaPipe
+* Data stored and organized for training the ML model
+
+This approach allowed better control over the data and helped in understanding how data quality affects model performance.
+
 ## Features
 - Real-time hand gesture recognition
 - Text generation from sign language
