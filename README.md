@@ -1,6 +1,12 @@
 # Sign Language Translator
 
-A real-time sign language recognition system using MediaPipe and Machine Learning that converts hand gestures into text and speech.
+A real-time sign language recognition system that converts hand gestures into text and speech using computer vision and machine learning.
+
+# Overview
+
+This project focuses on improving accessibility by enabling basic communication through sign language recognition. It captures hand gestures using a webcam, processes them using MediaPipe, and predicts corresponding characters using a trained machine learning model.
+
+The system is designed to work in real time and supports continuous sentence formation along with speech output.
 
 ## Features
 - Real-time hand gesture recognition
@@ -26,13 +32,13 @@ model/         → Trained ML model
 predict_sign.py → Main application  
 ```
 
-## How It Works
+## System Workflow
 
-1. MediaPipe detects hand landmarks.
+1. MediaPipe extracts hand landmarks from webcam input.
 2. Landmarks are fed into a trained ML model.
 3. The model predicts the corresponding letter.
-4. Letters form words and sentences.
-5. NLP suggests possible word completions.
+4. Characters are combined to form words and sentences
+5. A simple suggestion system assists in completing words
 6. The system can speak the sentence aloud.
 
 ## How to Run
@@ -58,10 +64,14 @@ SPEAK → Convert sentence to speech
 
 ## Future Improvements
 
-• Full A–Z gesture support  
-• Deep learning based model  
-• GUI interface  
-• Higher prediction accuracy
+* Limited gesture vocabulary (not full A–Z)
+* Performance depends on lighting and hand visibility
+* Future improvements:
+
+  * Expand gesture dataset
+  * Improve model accuracy
+  * Integrate deep learning models
+  * Build a GUI for better usability
 
 ## Demo
 
