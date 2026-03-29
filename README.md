@@ -44,12 +44,23 @@ predict_sign.py → Main application
 
 ## System Workflow
 
-1. MediaPipe extracts hand landmarks from webcam input.
-2. Landmarks are fed into a trained ML model.
-3. The model predicts the corresponding letter.
-4. Characters are combined to form words and sentences
-5. A simple suggestion system assists in completing words
-6. The system can speak the sentence aloud.
+Camera Input (Live Video)
+↓
+Hand Detection using MediaPipe
+↓
+Landmark Extraction (21 key points per hand)
+↓
+Preprocessing & Feature Vector Creation
+↓
+Trained Machine Learning Model Prediction
+↓
+Character Output (A–Z / Commands)
+↓
+Sentence Formation Logic
+↓
+Word Suggestion (Basic NLP)
+↓
+Text-to-Speech Output (pyttsx3)
 
 ## How to Run
 
