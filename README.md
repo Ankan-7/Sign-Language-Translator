@@ -46,6 +46,7 @@ predict_sign.py → Main application
 
 Camera Input (Live Video)
 ↓
+
 Hand Detection using MediaPipe
 ↓
 Landmark Extraction (21 key points per hand)
