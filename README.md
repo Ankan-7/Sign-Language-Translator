@@ -89,7 +89,7 @@ SPEAK → Convert sentence to speech
 
 Example frame from the system:
 
-<img src="assets/demo_image_v2.png" width="700"/>
+![Demo](assets/demo.png)
 
 ---
 
