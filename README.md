@@ -85,7 +85,7 @@ SPEAK → Convert sentence to speech
 
 ## Demo
 
-### Sample Output
+### System Snapshot
 
 Example frame from the system:
 
