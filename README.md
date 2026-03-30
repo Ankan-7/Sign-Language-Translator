@@ -89,11 +89,11 @@ SPEAK → Convert sentence to speech
 
 Example frame from the system:
 
-![Demo](assets/demo.png)
+<img src="assets/demo_image_v2.png" width="700"/>
 
 ---
 
 ### Full System Demo
 Real-time gesture recognition, text formation, and command execution:
 
-![Demo GIF](assets/demo.gif)
+<img src="assets/demo.gif" width="700"/>
