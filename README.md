@@ -85,4 +85,15 @@ SPEAK → Convert sentence to speech
 
 ## Demo
 
+### Sample Output
+
+Example frame from the system:
+
 ![Demo](assets/demo.png)
+
+---
+
+### Full System Demo
+Real-time gesture recognition, text formation, and command execution:
+
+![Demo GIF](assets/demo.gif)
