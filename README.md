@@ -8,6 +8,12 @@ This project focuses on improving accessibility by enabling basic communication 
 
 The system is designed to work in real time and supports continuous sentence formation along with speech output.
 
+## Project Vision
+
+This project aims to bridge the communication gap between individuals using sign language and those unfamiliar with it.
+
+By integrating real-time gesture recognition with speech output, the system enables more natural and accessible interaction, with potential applications and a raw idea in assistive technology for the hearing and speech impaired.
+
 ## Dataset
 
 The dataset used in this project was created manually by capturing hand gesture samples using a webcam.
